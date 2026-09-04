@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Vintage Vogue</title>
+
+    <meta name="description"
+        content="Shop men's trousers, baby trousers and baby girl nighties at Vintage Vogue.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="site-header">
+
+    <div class="container nav-wrapper">
+
+        <a href="index.html" class="logo">
+            <strong>Vintage Vogue</strong>
+            <span>EVERYDAY CLOTHING CO.</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <nav class="nav-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="developer.html">Developer</a>
+
+            <button class="cart-button" onclick="openCart()">
+                🛒 Cart
+                <span id="cart-count">0</span>
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ================= PRODUCTS HERO ================= -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            VINTAGE VOGUE COLLECTION
+        </span>
+
+        <h1>
+            Shop the collection.
+        </h1>
+
+        <p>
+            Choose your products, select your size and colour,
+            add them to your cart and order directly on WhatsApp.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MEN'S TROUSERS ================= -->
+
+<section class="product-section section" id="mens">
+
+    <div class="container">
+
+        <div class="section-heading left">
+
+            <span class="eyebrow">
+                MEN'S COLLECTION
+            </span>
+
+            <h2>
+                Men's Trousers
+            </h2>
+
+            <p>
+                Everyday trousers in different fits and styles.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-1.jpg -->
+
+                    <img
+                        src="images/f.jpeg"
+                        alt="Classic Straight Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                    <div class="product-badge">
+                        Men's
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Men's Trousers
+                    </span>
+
+                    <h3>Classic Straight Trouser</h3>
+
+                    <p>
+                        Clean everyday straight-fit trouser.
+                    </p>
+
+                    <strong class="price">Rs. 2,499</strong>
+
+                    <button
+                        class="add-cart"
+                        onclick="addToCart(
+                            'm1',
+                            'Classic Straight Trouser',
+                            2499,
+                            'images/mens-trouser-1.jpg'
+                        )">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-2.jpg -->
+
+                    <img
+                        src="images/WhatsApp Image 2026-09-05 at 12.39.55 AM (1).jpeg"
+                        alt="Relaxed Cargo Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                    <div class="product-badge">
+                        Men's
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Men's Trousers
+                    </span>
+
+                    <h3>Relaxed Cargo Trouser</h3>
+
+                    <p>
+                        Relaxed cargo style for everyday wear.
+                    </p>
+
+                    <strong class="price">Rs. 2,799</strong>
+
+                    <button
+                        class="add-cart"
+                        onclick="addToCart(
+                            'm2',
+                            'Relaxed Cargo Trouser',
+                            2799,
+                            'images/mens-trouser-2.jpg'
+                        )">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-3.jpg -->
+
+                    <img
+                        src="images/k.jpeg"
+                        alt="Formal Slim Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                    <div class="product-badge">
+                        Men's
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">
+                        Men's Trousers
+                    </span>
+
+                    <h3>Formal Slim Trouser</h3>
+
+                    <p>
+                        Smart slim fit for formal occasions.
+                    </p>
+
+                    <strong class="price">Rs. 2,999</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m3','Formal Slim Trouser',2999,'images/mens-trouser-3.jpg')">
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-4.jpg -->
+
+                    <img src="images/baby-trouser-2.jpg"
+                        alt="Classic Khaki Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Classic Khaki Trouser</h3>
+
+                    <p>Easy everyday khaki style.</p>
+
+                    <strong class="price">Rs. 2,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m4','Classic Khaki Trouser',2599,'images/mens-trouser-4.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-5.jpg -->
+
+                    <img src="images/mens-trouser-5.jpg"
+                        alt="Comfort Fit Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Comfort Fit Trouser</h3>
+
+                    <p>Comfort-focused everyday fit.</p>
+
+                    <strong class="price">Rs. 2,399</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m5','Comfort Fit Trouser',2399,'images/mens-trouser-5.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-6.jpg -->
+
+                    <img src="images/mens-trouser-6.jpg"
+                        alt="Everyday Black Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Everyday Black Trouser</h3>
+
+                    <p>Simple black trouser for daily use.</p>
+
+                    <strong class="price">Rs. 2,499</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m6','Everyday Black Trouser',2499,'images/mens-trouser-6.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 7 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-7.jpg -->
+
+                    <img src="images/mens-trouser-7.jpg"
+                        alt="Navy Casual Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Navy Casual Trouser</h3>
+
+                    <p>Versatile navy everyday style.</p>
+
+                    <strong class="price">Rs. 2,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m7','Navy Casual Trouser',2599,'images/mens-trouser-7.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 8 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-8.jpg -->
+
+                    <img src="images/mens-trouser-8.jpg"
+                        alt="Utility Cargo Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Utility Cargo Trouser</h3>
+
+                    <p>Practical cargo pockets and relaxed fit.</p>
+
+                    <strong class="price">Rs. 2,899</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m8','Utility Cargo Trouser',2899,'images/mens-trouser-8.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 9 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-9.jpg -->
+
+                    <img src="images/mens-trouser-9.jpg"
+                        alt="Weekend Relaxed Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Weekend Relaxed Trouser</h3>
+
+                    <p>Relaxed style for casual days.</p>
+
+                    <strong class="price">Rs. 2,499</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m9','Weekend Relaxed Trouser',2499,'images/mens-trouser-9.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 10 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-trouser-10.jpg -->
+
+                    <img src="images/mens-trouser-10.jpg"
+                        alt="Premium Straight Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Men's Trousers</span>
+
+                    <h3>Premium Straight Trouser</h3>
+
+                    <p>Clean premium everyday design.</p>
+
+                    <strong class="price">Rs. 3,199</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('m10','Premium Straight Trouser',3199,'images/mens-trouser-10.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BABY BOYS ================= -->
+
+<section class="product-section section soft-section" id="baby-boys">
+
+    <div class="container">
+
+        <div class="section-heading left">
+
+            <span class="eyebrow">
+                LITTLE EXPLORERS
+            </span>
+
+            <h2>Baby Trousers</h2>
+
+            <p>
+                Comfortable everyday styles for little ones.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- BABY 1 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/baby-trouser-1.jpg -->
+
+                    <img src="images/.jpg"
+                        alt="Little Explorer Cargo"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Little Explorer Cargo</h3>
+
+                    <p>Easy cargo style for active little ones.</p>
+
+                    <strong class="price">Rs. 1,699</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b1','Little Explorer Cargo',1699,'images/baby-trouser-1.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 2 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/baby-trouser-2.jpg -->
+
+                    <img src="images/baby-trouser-2.jpg"
+                        alt="Playground Jogger"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Playground Jogger</h3>
+
+                    <p>Soft casual jogger-inspired style.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b2','Playground Jogger',1599,'images/baby-trouser-2.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 3 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/baby-trouser-3.jpg -->
+
+                    <img src="images/baby-trouser-3.jpg"
+                        alt="Weekend Cargo"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Weekend Cargo</h3>
+
+                    <p>Comfortable casual cargo design.</p>
+
+                    <strong class="price">Rs. 1,799</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b3','Weekend Cargo',1799,'images/baby-trouser-3.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 4 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/baby-trouser-4.jpg"
+                        alt="Tiny Traveller Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Tiny Traveller Trouser</h3>
+
+                    <p>Simple everyday travel-ready style.</p>
+
+                    <strong class="price">Rs. 1,699</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b4','Tiny Traveller Trouser',1699,'images/baby-trouser-4.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 5 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/baby-trouser-5.jpg"
+                        alt="Mini Classic Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Mini Classic Trouser</h3>
+
+                    <p>Classic clean look for little ones.</p>
+
+                    <strong class="price">Rs. 1,649</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b5','Mini Classic Trouser',1649,'images/baby-trouser-5.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 6 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/baby-trouser-6.jpg"
+                        alt="Little Daily Jogger"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Little Daily Jogger</h3>
+
+                    <p>Easy-going everyday jogger.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b6','Little Daily Jogger',1599,'images/baby-trouser-6.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 7 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/baby-trouser-7.jpg"
+                        alt="Little Denim Style Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Little Denim Style Trouser</h3>
+
+                    <p>Denim-inspired everyday look.</p>
+
+                    <strong class="price">Rs. 1,899</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b7','Little Denim Style Trouser',1899,'images/baby-trouser-7.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 8 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/baby-trouser-8.jpg"
+                        alt="Tiny Cargo Pant"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Tiny Cargo Pant</h3>
+
+                    <p>Practical mini cargo design.</p>
+
+                    <strong class="price">Rs. 1,749</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b8','Tiny Cargo Pant',1749,'images/baby-trouser-8.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 9 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/a.jpeg"
+                        alt="Play Day Trouser"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Play Day Trouser</h3>
+
+                    <p>Comfortable style for playtime.</p>
+
+                    <strong class="price">Rs. 1,649</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b9','Play Day Trouser',1649,'images/baby-trouser-9.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BABY 10 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/b.jpeg"
+                        alt="Mini Weekend Pant"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Trousers</span>
+
+                    <h3>Mini Weekend Pant</h3>
+
+                    <p>Relaxed everyday weekend style.</p>
+
+                    <strong class="price">Rs. 1,699</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('b10','Mini Weekend Pant',1699,'images/baby-trouser-10.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BABY GIRL NIGHTIES ================= -->
+
+<section class="product-section section" id="baby-girls">
+
+    <div class="container">
+
+        <div class="section-heading left">
+
+            <span class="eyebrow">
+                LITTLE DREAMERS
+            </span>
+
+            <h2>Baby Girl Nighties</h2>
+
+            <p>
+                Cute, comfortable nightwear styles.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <!-- NIGHTY 1 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/nighty-1.jpg -->
+
+                    <img src="images/WhatsApp Image 2026-09-05 at 12.40.55 AM.jpeg"
+                        alt="Starlight Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Starlight Nighty</h3>
+
+                    <p>Soft and comfortable nightwear.</p>
+
+                    <strong class="price">Rs. 1,499</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g1','Starlight Nighty',1499,'images/nighty-1.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 2 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/nighty-2.jpg -->
+
+                    <img src="images/nighty-2.jpg"
+                        alt="Dreamy Frock Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Dreamy Frock Nighty</h3>
+
+                    <p>Pretty frock-inspired nightwear.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g2','Dreamy Frock Nighty',1599,'images/nighty-2.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 3 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/nighty-3.jpg -->
+
+                    <img src="images/nighty-3.jpg"
+                        alt="Floral Meadow Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Floral Meadow Nighty</h3>
+
+                    <p>Floral-inspired comfortable nightwear.</p>
+
+                    <strong class="price">Rs. 1,549</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g3','Floral Meadow Nighty',1549,'images/nighty-3.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 4 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-4.jpg"
+                        alt="Little Princess Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Little Princess Nighty</h3>
+
+                    <p>Sweet everyday nightwear design.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g4','Little Princess Nighty',1599,'images/nighty-4.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 5 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-5.jpg"
+                        alt="Moonlight Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Moonlight Nighty</h3>
+
+                    <p>Light and comfortable bedtime style.</p>
+
+                    <strong class="price">Rs. 1,499</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g5','Moonlight Nighty',1499,'images/nighty-5.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 6 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-6.jpg"
+                        alt="Garden Flower Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Garden Flower Nighty</h3>
+
+                    <p>Pretty floral-inspired bedtime style.</p>
+
+                    <strong class="price">Rs. 1,549</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g6','Garden Flower Nighty',1549,'images/nighty-6.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 7 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-7.jpg"
+                        alt="Soft Dream Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Soft Dream Nighty</h3>
+
+                    <p>Simple soft nightwear for little girls.</p>
+
+                    <strong class="price">Rs. 1,499</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g7','Soft Dream Nighty',1499,'images/nighty-7.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 8 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-8.jpg"
+                        alt="Rainbow Dream Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Rainbow Dream Nighty</h3>
+
+                    <p>Fun colourful bedtime style.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g8','Rainbow Dream Nighty',1599,'images/nighty-8.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 9 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-9.jpg"
+                        alt="Little Blossom Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Little Blossom Nighty</h3>
+
+                    <p>Gentle floral everyday nightwear.</p>
+
+                    <strong class="price">Rs. 1,549</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g9','Little Blossom Nighty',1549,'images/nighty-9.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- NIGHTY 10 -->
+
+            <article class="product-card">
+
+                <div class="product-image">
+
+                    <img src="images/nighty-10.jpg"
+                        alt="Sweet Dreams Nighty"
+                        loading="lazy"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Product Image</span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">Baby Girl Nighties</span>
+
+                    <h3>Sweet Dreams Nighty</h3>
+
+                    <p>Comfortable classic bedtime style.</p>
+
+                    <strong class="price">Rs. 1,599</strong>
+
+                    <button class="add-cart"
+                        onclick="addToCart('g10','Sweet Dreams Nighty',1599,'images/nighty-10.jpg')">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= CART ================= -->
+
+<div id="cart-overlay" class="cart-overlay" onclick="closeCart()"></div>
+
+<aside id="cart-drawer" class="cart-drawer">
+
+    <div class="cart-header">
+
+        <div>
+            <span class="eyebrow">YOUR ORDER</span>
+            <h2>Your Cart</h2>
+        </div>
+
+        <button onclick="closeCart()" class="close-cart">×</button>
+
+    </div>
+
+    <div id="cart-items" class="cart-items"></div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+            <span>Total</span>
+            <strong id="cart-total">Rs. 0</strong>
+        </div>
+
+        <button class="whatsapp-order"
+            onclick="checkoutWhatsApp()">
+            💬 Order on WhatsApp
+        </button>
+
+        <a href="tel:+923000000000"
+           class="call-order">
+            📞 Call to Order
+        </a>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <strong>Vintage Vogue</strong>
+                <span>EVERYDAY CLOTHING CO.</span>
+            </a>
+
+            <p>
+                Timeless everyday clothing for men,
+                babies and little ones.
+            </p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Categories</h3>
+            <a href="#mens">Men's Trousers</a>
+            <a href="#baby-boys">Baby Trousers</a>
+            <a href="#baby-girls">Baby Girl Nighties</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <a href="tel:+923149352550">+92 314 935 2550</a>
+            <a href="mailto:hello@vintagevogue.com">
+                hello@vintagevogue.com
+            </a>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+        <p>© 2026 Vintage Vogue. All rights reserved.</p>
+
+        <a href="developer.html">
+            Website by Shehroz Khan
+        </a>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

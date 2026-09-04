@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Contact | Vintage Vogue</title>
+
+    <meta
+        name="description"
+        content="Contact Vintage Vogue for product enquiries and orders."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-wrapper">
+
+        <a href="index.html" class="logo">
+
+            <strong>
+                Vintage Vogue
+            </strong>
+
+            <span>
+                EVERYDAY CLOTHING CO.
+            </span>
+
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a
+                href="contact.html"
+                class="active"
+            >
+                Contact
+            </a>
+
+            <a href="developer.html">
+                Developer
+            </a>
+
+
+            <button
+                class="cart-button"
+                onclick="openCart()"
+            >
+                🛒 Cart
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     PAGE HERO
+===================================================== -->
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            CONTACT VINTAGE VOGUE
+        </span>
+
+        <h1>
+            Let's talk.
+        </h1>
+
+        <p>
+            Have a question about a product or want
+            to place an order? Get in touch with us.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div
+            class="contact-layout"
+            style="
+                display:grid;
+                grid-template-columns:0.8fr 1.2fr;
+                gap:60px;
+                align-items:start;
+            "
+        >
+
+
+            <!-- =========================================
+                 CONTACT INFORMATION
+            ========================================== -->
+
+            <div>
+
+                <span class="eyebrow">
+                    GET IN TOUCH
+                </span>
+
+
+                <h2
+                    style="
+                        font-family:Georgia,serif;
+                        font-size:42px;
+                        line-height:1.05;
+                        margin-bottom:20px;
+                    "
+                >
+                    We're here to help.
+                </h2>
+
+
+                <p
+                    style="
+                        color:var(--muted);
+                        margin-bottom:35px;
+                    "
+                >
+                    Contact us directly or send a message
+                    using the form.
+                </p>
+
+
+
+                <!-- EMAIL -->
+
+                <div
+                    style="
+                        padding:20px 0;
+                        border-bottom:1px solid var(--border);
+                    "
+                >
+
+                    <strong>
+                        Email
+                    </strong>
+
+                    <a
+                        href="mailto:hello@vintagevogue.com"
+                        style="
+                            display:block;
+                            margin-top:5px;
+                            color:var(--accent);
+                        "
+                    >
+                        hello@vintagevogue.com
+                    </a>
+
+                </div>
+
+
+
+                <!-- PHONE -->
+
+                <div
+                    style="
+                        padding:20px 0;
+                        border-bottom:1px solid var(--border);
+                    "
+                >
+
+                    <strong>
+                        Phone
+                    </strong>
+
+                    <a
+                        href="tel:+923149352550"
+                        style="
+                            display:block;
+                            margin-top:5px;
+                            color:var(--accent);
+                        "
+                    >
+                        +92 314 9352550
+                    </a>
+
+                </div>
+
+
+
+                <!-- WHATSAPP -->
+
+                <div
+                    style="
+                        padding:20px 0;
+                        border-bottom:1px solid var(--border);
+                    "
+                >
+
+                    <strong>
+                        WhatsApp
+                    </strong>
+
+                    <a
+                        href="https://wa.me/923149352550"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        style="
+                            display:inline-flex;
+                            margin-top:12px;
+                        "
+                    >
+                        💬 Message on WhatsApp
+                    </a>
+
+                </div>
+
+
+
+                <!-- ADDRESS -->
+
+                <div
+                    style="
+                        padding:20px 0;
+                        border-bottom:1px solid var(--border);
+                    "
+                >
+
+                    <strong>
+                        Location
+                    </strong>
+
+                    <p
+                        style="
+                            margin-top:7px;
+                            color:var(--muted);
+                        "
+                    >
+                        Add your shop / warehouse
+                        address here.
+                    </p>
+
+                </div>
+
+
+
+                <!-- HOURS -->
+
+                <div
+                    style="
+                        padding:20px 0;
+                    "
+                >
+
+                    <strong>
+                        Opening Hours
+                    </strong>
+
+                    <p
+                        style="
+                            margin-top:7px;
+                            color:var(--muted);
+                        "
+                    >
+                        Monday – Saturday<br>
+                        10:00 AM – 7:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================================
+                 CONTACT FORM
+            ========================================== -->
+
+            <div
+                style="
+                    padding:35px;
+                    background:white;
+                    border:1px solid var(--border);
+                    border-radius:22px;
+                    box-shadow:var(--shadow);
+                "
+            >
+
+                <span class="eyebrow">
+                    SEND A MESSAGE
+                </span>
+
+
+                <h2
+                    style="
+                        font-family:Georgia,serif;
+                        font-size:35px;
+                        margin-bottom:25px;
+                    "
+                >
+                    Contact us
+                </h2>
+
+
+                <form id="contact-form">
+
+
+                    <!-- NAME -->
+
+                    <div style="margin-bottom:18px;">
+
+                        <label
+                            for="name"
+                            style="
+                                display:block;
+                                margin-bottom:7px;
+                                font-weight:700;
+                                font-size:14px;
+                            "
+                        >
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                            style="
+                                width:100%;
+                                padding:14px;
+                                border:1px solid var(--border);
+                                border-radius:10px;
+                                outline:none;
+                            "
+                        >
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div style="margin-bottom:18px;">
+
+                        <label
+                            for="email"
+                            style="
+                                display:block;
+                                margin-bottom:7px;
+                                font-weight:700;
+                                font-size:14px;
+                            "
+                        >
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                            style="
+                                width:100%;
+                                padding:14px;
+                                border:1px solid var(--border);
+                                border-radius:10px;
+                                outline:none;
+                            "
+                        >
+
+                    </div>
+
+
+
+                    <!-- SUBJECT -->
+
+                    <div style="margin-bottom:18px;">
+
+                        <label
+                            for="subject"
+                            style="
+                                display:block;
+                                margin-bottom:7px;
+                                font-weight:700;
+                                font-size:14px;
+                            "
+                        >
+                            Subject
+                        </label>
+
+                        <select
+                            id="subject"
+                            name="subject"
+                            style="
+                                width:100%;
+                                padding:14px;
+                                border:1px solid var(--border);
+                                border-radius:10px;
+                                background:white;
+                                outline:none;
+                            "
+                        >
+
+                            <option>
+                                Product Enquiry
+                            </option>
+
+                            <option>
+                                Order Question
+                            </option>
+
+                            <option>
+                                Size / Colour Question
+                            </option>
+
+                            <option>
+                                General Question
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- MESSAGE -->
+
+                    <div style="margin-bottom:20px;">
+
+                        <label
+                            for="message"
+                            style="
+                                display:block;
+                                margin-bottom:7px;
+                                font-weight:700;
+                                font-size:14px;
+                            "
+                        >
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                            style="
+                                width:100%;
+                                padding:14px;
+                                border:1px solid var(--border);
+                                border-radius:10px;
+                                resize:vertical;
+                                outline:none;
+                            "
+                        ></textarea>
+
+                    </div>
+
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                        style="
+                            width:100%;
+                            border:0;
+                            cursor:pointer;
+                        "
+                    >
+                        Send Message
+                    </button>
+
+
+                    <p
+                        id="form-message"
+                        style="
+                            margin-top:15px;
+                            text-align:center;
+                            color:var(--accent);
+                            font-size:14px;
+                        "
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHATSAPP CTA
+===================================================== -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="eyebrow">
+                QUICK ORDER
+            </span>
+
+            <h2>
+                Prefer WhatsApp?
+            </h2>
+
+            <p>
+                Send us a message directly and we'll
+                help you with your order.
+            </p>
+
+
+            <a
+                href="https://wa.me/923149352550"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+            >
+                💬 Chat on WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =====================================================
+     CART OVERLAY
+===================================================== -->
+
+<div
+    id="cart-overlay"
+    class="cart-overlay"
+    onclick="closeCart()"
+></div>
+
+
+
+<!-- =====================================================
+     CART DRAWER
+===================================================== -->
+
+<aside
+    id="cart-drawer"
+    class="cart-drawer"
+>
+
+    <div class="cart-header">
+
+        <div>
+
+            <span class="eyebrow">
+                YOUR ORDER
+            </span>
+
+            <h2>
+                Your Cart
+            </h2>
+
+        </div>
+
+
+        <button
+            onclick="closeCart()"
+            class="close-cart"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        id="cart-items"
+        class="cart-items"
+    ></div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+
+            <span>
+                Total
+            </span>
+
+            <strong id="cart-total">
+                Rs. 0
+            </strong>
+
+        </div>
+
+
+        <!--
+            CART WHATSAPP
+            03149352550
+            International:
+            923149352550
+        -->
+
+        <button
+            class="whatsapp-order"
+            onclick="checkoutWhatsApp()"
+        >
+            💬 Order on WhatsApp
+        </button>
+
+
+        <a
+            href="tel:+923149352550"
+            class="call-order"
+        >
+            📞 Call to Order
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a
+                href="index.html"
+                class="logo footer-logo"
+            >
+
+                <strong>
+                    Vintage Vogue
+                </strong>
+
+                <span>
+                    EVERYDAY CLOTHING CO.
+                </span>
+
+            </a>
+
+
+            <p>
+                Timeless everyday clothing for men,
+                babies and little ones.
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Explore
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="developer.html">
+                Developer
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Categories
+            </h3>
+
+            <a href="products.html#mens">
+                Men's Trousers
+            </a>
+
+            <a href="products.html#baby-boys">
+                Baby Trousers
+            </a>
+
+            <a href="products.html#baby-girls">
+                Baby Girl Nighties
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <a href="tel:+923149352550">
+                +92 314 9352550
+            </a>
+
+            <a
+                href="https://wa.me/923149352550"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                WhatsApp
+            </a>
+
+            <a href="mailto:hello@vintagevogue.com">
+                hello@vintagevogue.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Vintage Vogue. All rights reserved.
+        </p>
+
+        <a href="developer.html">
+            Website by Shehroz Khan
+        </a>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     CONTACT FORM
+===================================================== -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form =
+        document.getElementById("contact-form");
+
+    const message =
+        document.getElementById("form-message");
+
+
+    if (!form || !message) {
+        return;
+    }
+
+
+    form.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+
+        const name =
+            document.getElementById("name")
+                .value
+                .trim();
+
+        const email =
+            document.getElementById("email")
+                .value
+                .trim();
+
+        const subject =
+            document.getElementById("subject")
+                .value;
+
+        const userMessage =
+            document.getElementById("message")
+                .value
+                .trim();
+
+
+        if (!name || !email || !userMessage) {
+            return;
+        }
+
+
+        const whatsappMessage =
+            `Hello Vintage Vogue!%0A%0A` +
+            `Name: ${encodeURIComponent(name)}%0A` +
+            `Email: ${encodeURIComponent(email)}%0A` +
+            `Subject: ${encodeURIComponent(subject)}%0A` +
+            `Message: ${encodeURIComponent(userMessage)}`;
+
+
+        const whatsappURL =
+            `https://wa.me/923149352550?text=${whatsappMessage}`;
+
+
+        window.open(
+            whatsappURL,
+            "_blank",
+            "noopener,noreferrer"
+        );
+
+
+        message.textContent =
+            "Opening WhatsApp...";
+
+        form.reset();
+
+    });
+
+});
+
+</script>
+
+
+</body>
+</html>

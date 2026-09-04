@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vintage Vogue | Everyday Clothing</title>
+
+    <meta name="description"
+        content="Vintage Vogue - Men's trousers, baby trousers and baby girl nighties.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="site-header">
+    <div class="container nav-wrapper">
+
+        <a href="index.html" class="logo">
+            <strong>Vintage Vogue</strong>
+            <span>EVERYDAY CLOTHING CO.</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="developer.html">Developer</a>
+
+            <button class="cart-button" onclick="openCart()">
+                🛒 Cart
+                <span id="cart-count">0</span>
+            </button>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="eyebrow">VINTAGE VOGUE</span>
+
+            <h1>
+                Everyday clothes,
+                made to feel right.
+            </h1>
+
+            <p>
+                Discover comfortable men's trousers, baby trousers
+                and beautiful baby girl nighties for everyday wear.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="products.html" class="btn btn-primary">
+                    Shop Collection
+                </a>
+
+                <a href="contact.html" class="btn btn-outline">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!--
+            HERO VIDEO PLACEHOLDER
+
+            Slider intentionally left for you.
+            Later you can put your 2 videos here.
+
+            Example:
+            videos/hero-video-1.mp4
+            videos/hero-video-2.mp4
+        -->
+
+        <div class="hero-media">
+
+            <div class="media-placeholder">
+                <span>
+                    <strong>
+                    <img src="images/k.jpeg">
+                    <br>
+                 
+                </span>
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">SHOP COLLECTION</span>
+
+            <h2>
+                Find your everyday essentials
+            </h2>
+
+            <p>
+                Simple styles for men and little ones.
+            </p>
+        </div>
+
+
+        <div class="category-grid">
+
+
+            <!-- MEN -->
+
+            <a href="products.html#mens" class="category-card">
+
+                <div class="category-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/mens-category.jpg -->
+
+                    <img
+                        src="images/f.jpeg"
+                        alt="Men's trousers"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Men's Image</span>
+
+                </div>
+
+                <div class="category-info">
+                    <span>01</span>
+                    <h3>Men's Trousers</h3>
+                    <p>Smart and everyday trouser styles.</p>
+                    <strong>Shop Now →</strong>
+                </div>
+
+            </a>
+
+
+            <!-- BABY BOYS -->
+
+            <a href="products.html#baby-boys" class="category-card">
+
+                <div class="category-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/baby-category.jpg -->
+
+                    <img
+                        src="images/baby-trouser-2.jpg"
+                        alt="Baby trousers"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Baby Image</span>
+
+                </div>
+
+                <div class="category-info">
+                    <span>02</span>
+                    <h3>Baby Trousers</h3>
+                    <p>Comfortable styles for little explorers.</p>
+                    <strong>Shop Now →</strong>
+                </div>
+
+            </a>
+
+
+            <!-- BABY GIRLS -->
+
+            <a href="products.html#baby-girls" class="category-card">
+
+                <div class="category-image">
+
+                    <!-- CHANGE IMAGE:
+                         images/nighty-category.jpg -->
+
+                    <img
+                        src="images/WhatsApp Image 2026-09-05 at 12.40.55 AM.jpeg"
+                        alt="Baby girl nighties"
+                        onerror="this.style.display='none'; this.parentElement.classList.add('image-missing');">
+
+                    <span>Nighty Image</span>
+
+                </div>
+
+                <div class="category-info">
+                    <span>03</span>
+                    <h3>Baby Girl Nighties</h3>
+                    <p>Soft and comfortable nightwear.</p>
+                    <strong>Shop Now →</strong>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="section features-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">WHY VINTAGE VOGUE</span>
+
+            <h2>
+                Made for everyday life.
+            </h2>
+        </div>
+
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">✦</div>
+                <h3>Quality Focused</h3>
+                <p>
+                    Clothing selected with everyday comfort
+                    and durability in mind.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">✓</div>
+                <h3>Easy Ordering</h3>
+                <p>
+                    Add your favourite products to the cart
+                    and order directly through WhatsApp.
+                </p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-icon">♡</div>
+                <h3>For Everyone</h3>
+                <p>
+                    Everyday options for men, babies and
+                    little girls.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="eyebrow">READY TO SHOP?</span>
+
+            <h2>
+                Pick your favourites.
+            </h2>
+
+            <p>
+                Browse the collection and build your cart.
+                When you're ready, send the complete order
+                directly to us on WhatsApp.
+            </p>
+
+            <a href="products.html" class="btn btn-primary">
+                View Products
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= CART DRAWER ================= -->
+
+<div id="cart-overlay" class="cart-overlay" onclick="closeCart()"></div>
+
+<aside id="cart-drawer" class="cart-drawer">
+
+    <div class="cart-header">
+
+        <div>
+            <span class="eyebrow">YOUR ORDER</span>
+            <h2>Your Cart</h2>
+        </div>
+
+        <button onclick="closeCart()" class="close-cart">
+            ×
+        </button>
+
+    </div>
+
+
+    <div id="cart-items" class="cart-items">
+
+        <div class="empty-cart">
+            <div>🛒</div>
+            <h3>Your cart is empty</h3>
+            <p>Add products from our collection.</p>
+
+            <a href="products.html"
+               class="btn btn-primary"
+               onclick="closeCart()">
+                Browse Products
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+            <span>Total</span>
+            <strong id="cart-total">Rs. 0</strong>
+        </div>
+
+        <button
+            class="whatsapp-order"
+            onclick="checkoutWhatsApp()">
+
+            💬 Order on WhatsApp
+
+        </button>
+
+        <a href="tel:+923000000000"
+           class="call-order">
+
+            📞 Call to Order
+
+        </a>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <strong>Vintage Vogue</strong>
+                <span>EVERYDAY CLOTHING CO.</span>
+            </a>
+
+            <p>
+                Timeless everyday clothing for men,
+                babies and little ones.
+            </p>
+        </div>
+
+
+        <div>
+            <h3>Explore</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+
+        <div>
+            <h3>Categories</h3>
+
+            <a href="products.html#mens">
+                Men's Trousers
+            </a>
+
+            <a href="products.html#baby-boys">
+                Baby Trousers
+            </a>
+
+            <a href="products.html#baby-girls">
+                Baby Girl Nighties
+            </a>
+        </div>
+
+
+        <div>
+            <h3>Contact</h3>
+
+            <a href="tel:+923000000000">
+                +92 300 0000000
+            </a>
+
+            <a href="mailto:hello@vintagevogue.com">
+                hello@vintagevogue.com
+            </a>
+
+            <a href="contact.html">
+                Contact Us →
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Vintage Vogue. All rights reserved.
+        </p>
+
+        <a href="developer.html">
+            Website by Shehroz Khan
+        </a>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

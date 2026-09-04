@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>About | Vintage Vogue</title>
+
+    <meta
+        name="description"
+        content="Learn about Vintage Vogue and our approach to everyday clothing."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-wrapper">
+
+
+        <a href="index.html" class="logo">
+
+            <strong>
+                Vintage Vogue
+            </strong>
+
+            <span>
+                EVERYDAY CLOTHING CO.
+            </span>
+
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html" class="active">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a href="developer.html">
+                Developer
+            </a>
+
+
+            <button
+                class="cart-button"
+                onclick="openCart()"
+            >
+                🛒 Cart
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     PAGE HERO
+===================================================== -->
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            OUR STORY
+        </span>
+
+        <h1>
+            Clothes made for
+            everyday life.
+        </h1>
+
+        <p>
+            Vintage Vogue is focused on comfortable,
+            practical and timeless clothing for men
+            and little ones.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT STORY
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div
+            style="
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                gap:60px;
+                align-items:center;
+            "
+            class="about-layout"
+        >
+
+
+            <!-- IMAGE -->
+
+            <div
+                class="category-image"
+                style="
+                    height:550px;
+                    border-radius:22px;
+                "
+            >
+
+                <!--
+                    CHANGE OWNER / BRAND IMAGE HERE:
+
+                    images/owner.jpg
+
+                    Simply put your image inside
+                    the images folder and name it:
+
+                    owner.jpg
+                -->
+
+                <img
+                    src="images/owner.jpg"
+                    alt="Vintage Vogue"
+                    onerror="
+                        this.style.display='none';
+                        this.parentElement.classList.add('image-missing');
+                    "
+                >
+
+                <span>
+                    Add image: images/owner.jpg
+                </span>
+
+            </div>
+
+
+
+            <!-- TEXT -->
+
+            <div>
+
+                <span class="eyebrow">
+                    VINTAGE VOGUE
+                </span>
+
+                <h2
+                    style="
+                        font-family:Georgia,serif;
+                        font-size:clamp(35px,5vw,55px);
+                        line-height:1.05;
+                        margin-bottom:20px;
+                    "
+                >
+                    Simple clothing.
+                    Thoughtfully chosen.
+                </h2>
+
+
+                <p
+                    style="
+                        color:var(--muted);
+                        margin-bottom:20px;
+                    "
+                >
+                    We believe everyday clothing should
+                    look good, feel comfortable and work
+                    for real life.
+                </p>
+
+
+                <p
+                    style="
+                        color:var(--muted);
+                        margin-bottom:30px;
+                    "
+                >
+                    From everyday trousers to comfortable
+                    baby clothing and nightwear, Vintage
+                    Vogue brings together practical styles
+                    that can become part of your everyday
+                    wardrobe.
+                </p>
+
+
+                <a
+                    href="products.html"
+                    class="btn btn-primary"
+                >
+                    Explore Collection
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     OUR VALUES
+===================================================== -->
+
+<section
+    class="section"
+    style="background:white;"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">
+                WHAT MATTERS TO US
+            </span>
+
+            <h2>
+                Our values.
+            </h2>
+
+            <p>
+                The simple principles behind Vintage Vogue.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    01
+                </div>
+
+                <h3>
+                    Comfort First
+                </h3>
+
+                <p>
+                    Everyday clothing should be comfortable
+                    enough to actually live in.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    02
+                </div>
+
+                <h3>
+                    Practical Style
+                </h3>
+
+                <p>
+                    We prefer simple styles that are easy
+                    to wear and easy to combine.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    03
+                </div>
+
+                <h3>
+                    Everyday Quality
+                </h3>
+
+                <p>
+                    We focus on clothing that is selected
+                    with everyday use in mind.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="eyebrow">
+                VINTAGE VOGUE
+            </span>
+
+            <h2>
+                Ready to find your favourites?
+            </h2>
+
+            <p>
+                Browse our collection and add your favourite
+                products to your cart.
+            </p>
+
+            <a
+                href="products.html"
+                class="btn btn-primary"
+            >
+                Shop Products
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =====================================================
+     CART
+===================================================== -->
+
+<div
+    id="cart-overlay"
+    class="cart-overlay"
+    onclick="closeCart()"
+></div>
+
+
+<aside
+    id="cart-drawer"
+    class="cart-drawer"
+>
+
+    <div class="cart-header">
+
+        <div>
+
+            <span class="eyebrow">
+                YOUR ORDER
+            </span>
+
+            <h2>
+                Your Cart
+            </h2>
+
+        </div>
+
+
+        <button
+            onclick="closeCart()"
+            class="close-cart"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        id="cart-items"
+        class="cart-items"
+    ></div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+
+            <span>
+                Total
+            </span>
+
+            <strong id="cart-total">
+                Rs. 0
+            </strong>
+
+        </div>
+
+
+        <button
+            class="whatsapp-order"
+            onclick="checkoutWhatsApp()"
+        >
+            💬 Order on WhatsApp
+        </button>
+
+
+        <a
+            href="tel:+923000000000"
+            class="call-order"
+        >
+            📞 Call to Order
+        </a>
+
+    </div>
+
+</aside>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a
+                href="index.html"
+                class="logo footer-logo"
+            >
+
+                <strong>
+                    Vintage Vogue
+                </strong>
+
+                <span>
+                    EVERYDAY CLOTHING CO.
+                </span>
+
+            </a>
+
+
+            <p>
+                Timeless everyday clothing for men,
+                babies and little ones.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Explore
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Categories
+            </h3>
+
+            <a href="products.html#mens">
+                Men's Trousers
+            </a>
+
+            <a href="products.html#baby-boys">
+                Baby Trousers
+            </a>
+
+            <a href="products.html#baby-girls">
+                Baby Girl Nighties
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <a href="tel:+923000000000">
+                +92 300 0000000
+            </a>
+
+            <a href="mailto:hello@vintagevogue.com">
+                hello@vintagevogue.com
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Vintage Vogue. All rights reserved.
+        </p>
+
+        <a href="developer.html">
+            Website by Shehroz Khan
+        </a>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>

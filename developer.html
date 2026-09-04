@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Developer | Vintage Vogue</title>
+
+    <meta
+        name="description"
+        content="Website developer behind the Vintage Vogue website."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="container nav-wrapper">
+
+        <a href="index.html" class="logo">
+
+            <strong>
+                Vintage Vogue
+            </strong>
+
+            <span>
+                EVERYDAY CLOTHING CO.
+            </span>
+
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+            <a
+                href="developer.html"
+                class="active"
+            >
+                Developer
+            </a>
+
+
+            <button
+                class="cart-button"
+                onclick="openCart()"
+            >
+                🛒 Cart
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     DEVELOPER HERO
+===================================================== -->
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            WEBSITE DEVELOPER
+        </span>
+
+        <h1>
+            Built with purpose.
+        </h1>
+
+        <p>
+            The website and digital experience behind
+            Vintage Vogue.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DEVELOPER PROFILE
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div
+            style="
+                display:grid;
+                grid-template-columns:0.8fr 1.2fr;
+                gap:60px;
+                align-items:center;
+            "
+            class="developer-layout"
+        >
+
+
+            <!-- DEVELOPER IMAGE -->
+
+            <div
+                class="category-image"
+                style="
+                    height:520px;
+                    border-radius:22px;
+                "
+            >
+
+                <!--
+                    APNI PHOTO YAHAN LAGAO:
+
+                    images/developer-shehroz.jpg
+                -->
+
+                <img
+                    src="images/developer-shehroz.jpg"
+                    alt="Shehroz Khan - Web Developer"
+                    onerror="
+                        this.style.display='none';
+                        this.parentElement.classList.add('image-missing');
+                    "
+                >
+
+                <span>
+                    Add image:
+                    images/developer-shehroz.jpg
+                </span>
+
+            </div>
+
+
+
+            <!-- DEVELOPER INFO -->
+
+            <div>
+
+                <span class="eyebrow">
+                    CREATED BY
+                </span>
+
+
+                <h2
+                    style="
+                        font-family:Georgia,serif;
+                        font-size:clamp(40px,5vw,65px);
+                        line-height:1;
+                        margin-bottom:15px;
+                    "
+                >
+                    Shehroz Khan
+                </h2>
+
+
+                <h3
+                    style="
+                        font-size:18px;
+                        letter-spacing:2px;
+                        text-transform:uppercase;
+                        margin-bottom:25px;
+                    "
+                >
+                    Web Developer
+                </h3>
+
+
+                <p
+                    style="
+                        color:var(--muted);
+                        margin-bottom:18px;
+                    "
+                >
+                    I build modern, responsive and
+                    user-friendly websites designed
+                    to give businesses a strong online
+                    presence.
+                </p>
+
+
+                <p
+                    style="
+                        color:var(--muted);
+                        margin-bottom:30px;
+                    "
+                >
+                    This Vintage Vogue website combines
+                    responsive design, product browsing,
+                    a shopping cart and direct WhatsApp
+                    ordering into one simple experience.
+                </p>
+
+
+                <!-- BUTTONS -->
+
+                <div
+                    style="
+                        display:flex;
+                        gap:12px;
+                        flex-wrap:wrap;
+                    "
+                >
+
+                    <!--
+                        WHATSAPP:
+                        03038029831
+                        International:
+                        923038029831
+                    -->
+
+                    <a
+                        href="https://wa.me/923038029831"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                    >
+                        💬 WhatsApp Me
+                    </a>
+
+
+                    <!--
+                        CALL:
+                        03038029831
+                    -->
+
+                
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section
+    class="section"
+    style="background:white;"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">
+                SKILLS
+            </span>
+
+            <h2>
+                What I work with.
+            </h2>
+
+            <p>
+                Modern tools and techniques for
+                professional websites.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <!-- HTML -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    HTML
+                </div>
+
+                <h3>
+                    HTML5
+                </h3>
+
+                <p>
+                    Clean and structured website
+                    architecture.
+                </p>
+
+            </div>
+
+
+
+            <!-- CSS -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    CSS
+                </div>
+
+                <h3>
+                    CSS3
+                </h3>
+
+                <p>
+                    Responsive layouts and polished
+                    visual design.
+                </p>
+
+            </div>
+
+
+
+            <!-- JAVASCRIPT -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    JS
+                </div>
+
+                <h3>
+                    JavaScript
+                </h3>
+
+                <p>
+                    Interactive features such as carts,
+                    menus and WhatsApp ordering.
+                </p>
+
+            </div>
+
+
+
+            <!-- RESPONSIVE -->
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    UI
+                </div>
+
+                <h3>
+                    Responsive UI
+                </h3>
+
+                <p>
+                    Websites designed to work across
+                    phones, tablets and computers.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">
+                SERVICES
+            </span>
+
+            <h2>
+                Websites that help businesses grow.
+            </h2>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    01
+                </div>
+
+                <h3>
+                    Business Websites
+                </h3>
+
+                <p>
+                    Professional websites for shops,
+                    brands and local businesses.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    02
+                </div>
+
+                <h3>
+                    E-Commerce UI
+                </h3>
+
+                <p>
+                    Product pages, shopping carts and
+                    simple ordering systems.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    03
+                </div>
+
+                <h3>
+                    WhatsApp Ordering
+                </h3>
+
+                <p>
+                    Customers can send their cart
+                    directly through WhatsApp.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="eyebrow">
+                LET'S BUILD
+            </span>
+
+            <h2>
+                Need a website for your business?
+            </h2>
+
+            <p>
+                Let's create a modern digital presence
+                for your brand.
+            </p>
+
+
+            <div
+                style="
+                    display:flex;
+                    justify-content:center;
+                    gap:12px;
+                    flex-wrap:wrap;
+                "
+            >
+
+                <a
+                    href="https://wa.me/923038029831"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary"
+                >
+                    💬 WhatsApp Me
+                </a>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =====================================================
+     CART OVERLAY
+===================================================== -->
+
+<div
+    id="cart-overlay"
+    class="cart-overlay"
+    onclick="closeCart()"
+></div>
+
+
+
+<!-- =====================================================
+     CART DRAWER
+===================================================== -->
+
+<aside
+    id="cart-drawer"
+    class="cart-drawer"
+>
+
+    <div class="cart-header">
+
+        <div>
+
+            <span class="eyebrow">
+                YOUR ORDER
+            </span>
+
+            <h2>
+                Your Cart
+            </h2>
+
+        </div>
+
+
+        <button
+            onclick="closeCart()"
+            class="close-cart"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        id="cart-items"
+        class="cart-items"
+    ></div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+
+            <span>
+                Total
+            </span>
+
+            <strong id="cart-total">
+                Rs. 0
+            </strong>
+
+        </div>
+
+
+        <button
+            class="whatsapp-order"
+            onclick="checkoutWhatsApp()"
+        >
+            💬 Order on WhatsApp
+        </button>
+
+
+     
+
+    </div>
+
+</aside>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <a
+                href="index.html"
+                class="logo footer-logo"
+            >
+
+                <strong>
+                    Vintage Vogue
+                </strong>
+
+                <span>
+                    EVERYDAY CLOTHING CO.
+                </span>
+
+            </a>
+
+
+            <p>
+                Timeless everyday clothing for men,
+                babies and little ones.
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Explore
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Categories
+            </h3>
+
+            <a href="products.html#mens">
+                Men's Trousers
+            </a>
+
+            <a href="products.html#baby-boys">
+                Baby Trousers
+            </a>
+
+            <a href="products.html#baby-girls">
+                Baby Girl Nighties
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <a href="tel:+923038029831">
+                +92 303 8029831
+            </a>
+
+            <a href="https://wa.me/923038029831"
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+                WhatsApp
+            </a>
+
+            <a href="mailto:hello@vintagevogue.com">
+                hello@vintagevogue.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Vintage Vogue. All rights reserved.
+        </p>
+
+        <a href="developer.html">
+            Website by Shehroz Khan
+        </a>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
